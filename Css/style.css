@@ -52,11 +52,10 @@ nav .logo {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 700;
+    transition: var(--main-duration);
 }
 nav .logo:hover {
     color: red;
-    padding-left: 30px;
-    transition: var(--main-duration);
 }
 nav ul li {
     display: inline-block;
@@ -70,11 +69,10 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
+    transition: var(--main-duration);
 }
 nav ul li a:hover {
     color: #e80202;
-    padding-right: 20px;
-    transition: var(--main-duration);
 }
 /* End Nav  */
 /* Start Content */
@@ -95,11 +93,11 @@ nav ul li a:hover {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
+    transition: var(--main-duration);
 }
 .content .text h2:hover {
     color: red;
     padding-left: 30px;
-    transition: var(--main-duration);
 }
 .content .text p {
     font-size: 18px;
@@ -111,12 +109,12 @@ nav ul li a:hover {
     letter-spacing: 1px;
 }
 .content .image {
+    transition: var(--main-duration);
     width: 40%;
 }
 .content .image:hover {
     padding: 30px;
-    transition: var(--main-duration);
-}
+}    
 .content .image img {
     width: 400px;
 }
